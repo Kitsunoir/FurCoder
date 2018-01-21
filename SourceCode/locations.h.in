@@ -1,0 +1,38 @@
+//----------------------------- locations.h.in -------------------------------
+
+/***************************************************************************
+                            -  Description
+                             -------------------
+    Begin                : 6 December, 2006
+    Copyright            : (C) 2006 by Simo
+    E-Mail               : simo (at) furrydolphin (dot) net
+    Version              : 1.1.0
+ **************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *                                                                         *
+ *   If software can be free, why can't dolphins?                          *
+ *                                                                         *
+ ***************************************************************************
+
+     Note: This file processed by configure to generate the locations.h
+           file. Macros that describe paths to application support files.
+
+*/
+
+#ifndef LOCS_H
+#define LOCS_H
+
+#define BROWSER_PATHS "@prefix@/@PACKAGE@-@VERSION@/etc/browserpaths.config"
+#define CONFIG_PATH   FXString("@prefix@/@PACKAGE@-@VERSION@/etc/")
+#define DOC_PATH      FXString(" @prefix@/@PACKAGE@-@VERSION@/Documents/FCHIndex.html")
+
+#endif
+
+//----------------------------- locations.h.in -------------------------------

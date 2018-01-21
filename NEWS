@@ -1,0 +1,30 @@
+-------------------------------------- NEWS --------------------------------------
+
+8 January, 2007:
+	Added a "File Print" item to the main menu; added a "Print" button to
+	toolbar (with print icon).
+
+6 December, 2006:
+	Removed from toolbar the encode/decode check box. Replaced with regular
+	toolbar button to toggle modes instead. Added: line edit toolbar buttons
+	and main menu commands.
+
+4 August, 2005:
+	Simplified the code option command button group. Removed the "uncertain"
+	option, moved into option menus.
+
+21 September, 2004:
+	Made some changes in the decode mode presentation to improve over-all
+	appearance.
+
+19 September, 2004:
+	Changed the main window widgets to pack to uniform width. All buttons line
+	up evenly now.
+
+30 August, 2004:
+	GUI Complete. No changes to report.
+
+29 August, 2004:
+	Project start.
+
+-------------------------------------- NEWS --------------------------------------

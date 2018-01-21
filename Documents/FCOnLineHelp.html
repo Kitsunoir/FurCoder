@@ -1,0 +1,38 @@
+<!--
+
+------------------------------ FCOnLineHelp.html  ------------------------------
+
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>About the On-Line Help</title>
+<link rel="stylesheet" type="text/css" href="master-styles.css">
+</head>
+<body>
+<a name="BEGIN"></a>
+
+<h1>About the On-Line Help</h1>
+
+<p>The FurCoderCXX on-line help opens a web browser to view this help. A list of possible browsers is found in the file: /where/you/put/it/FurCoder-x.y.z/etc/browserpaths.config. The application simply searches through this list until it finds the first browser that's available on the system. If you want the help to open in a different browser, you may edit this file in order to place your favorite browser at the head of the list. To do this, you will need the exact path to the desired browser. An example of this is: /usr/bin/galeon or /usr/local/bin/firefox. You can use the "whereis" command to locate the executable, or search for it with your favorite file management utility. The file list also serves as a good example for making edits. Once you have your desired browser located, it is a good idea to test the path by entering it, along with an HTML file, at the command prompt to see if the system can open it. If this works from a command prompt, it will also work when invoked by the application.</p>
+
+<p>It is most essential that any comments you add must start in the <i>first column only!</i>. The application doesn't use any fancy text parsers to read this config file, so comments that start off the first column will cause the app to fail to recognize this as a comment. For this purpose, more sophisticated parsing just isn't necessary. Also, make certain that you don't either deliberately or accidentally indent a new entry. That, too, will cause a failure to read properly.</p>
+
+<p>As with any config file, it is an <i>extremely</i> good idea to first make a copy of the pre-existing file, but with a different extension (e.g. browserpaths.config.orig) This way, if you FUBAR the new file, you still have the old one available for recovery. Once you've verified that the new entry(ies) actually work, you could delete the old config file. However, since it's not such a large file, it would be a good idea to leave it in place. You can never be sure you won't be needing it again.</p>
+
+<p><h2><a name="DIAG">Diagnostics</a></h2></p>
+
+<p>FurCoderCXX includes some error messages that are displayed in those cases where non-standard or erroneous code entries are made that result in a failure to interpret the code. In addition, to assist in debugging a possible bad code, the FurCoderCXX includes instrumentation. This feature is available if you gave the "--enable-instr" option to the configure script at build time. These extra messages will be printed to "stdout", and are viewable if the app is started from a terminal command line. These extra messages show the intermediate results so that the exact nature of the error failure may be determined. This is a convenient aid for further development in cases of common code errors. Although mainly useful for developers, this feature can also aid the user in determining just what parts of a Fur Code are wrong (hand-written codes are liable to contain errors, and/or some other version, either earlier or non-standard, are being used).</p>
+
+<p>FurCoderCXX also includes diagnostic error messages that may be displayed on the terminal from "stderr". These failures are suppose to never occur or occur with such rareity that it was decided not to dedicate a message dialog to these. If the FurryCoder seems to crash, it may very well be due to one of these rare fatal errors. If this is the case, restart the app from a terminal. In case of a crash, use this command: "echo $?" (no quotes) to check the return code from the app. It should not be a "1", as this is the shell failure code. You will also be able to see the FurryCoder error messages from stderr. This should pin-point the cause of the fatal error (most likely corrupted files).
+
+<hr align="center" size="2" width="50%">
+<table align="center">
+<tr>
+     <td><a href="FCOnLineHelp.html#BEGIN"><img src="Images/BeginBtn.png" align="left" height="32" width="68"></a></td>
+     <td><a href="FCHIndex.html#BEGIN"><img src="Images/HomeBtn.png" align="right" height="32" width="68"></a></td>
+</tr>
+</table>
+</body>
+</html>

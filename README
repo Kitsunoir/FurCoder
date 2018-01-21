@@ -1,0 +1,31 @@
+------------------------------------ README ------------------------------------
+
+The FurCoderCXX is a graphical application intended for those affiliated with the
+Furry Fandom. (If you have *no* idea what that means, then, obviously, you have
+no use for this app.) This app allows you to quickly and easily create or decypher
+a "Fur Code". Following the example of the "Geek Code" from the Usenet days, Fur
+Codes allow one to reveal as much personal information as desired in very few
+characters that are largely meaningless to the mundanes (i.e. outsiders).
+(More details about the code itself are available via the on-line help.) Code
+creation is done mainly by selections from menus to minimize errors. While not
+exactly a critical matter, one doesn't want to present an error-ridden code that
+marks one as a rank n00b.
+
+The app also provides for decyphering any Fur Code. The code may be entered manually,
+via copy-and-paste, or loaded from a file. Options to print and/or save to disk
+are also available.
+
+For more details on using the application, and the Fur Code itself, see the on-line
+help.
+
+FurCoderCXX was written with the FOX toolkit and XEMACS.
+
+Written on a Slackware 10.1 Linux i686 System
+
+Copyright (C) 2006 by Simo
+
+Licensed under the GPL (see the on-line help to view the GPL).
+
+IF SOFTWARE CAN BE FREE, WHY CAN'T DOLPHINS?
+
+------------------------------------ README ------------------------------------

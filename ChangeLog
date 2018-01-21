@@ -1,0 +1,106 @@
+----------------------------------- Changelog  -----------------------------------
+
+13 Nov, 2013 (Simo)
+	*Point release: Included code to make the welcome screen more
+	presentable. Added option for debug compile. Added updated
+	FOX distribution to the included "tarball".
+
+22 March, 2013 (Simo)
+	*Bug fix release: corrected a defect in the rex used for species
+	decode for more reliable decoding of the species. Also including
+	the latest stable FOX release.
+
+9 January, 2007 (Simo)
+	* Made all icons *.xpm instead of *.png.
+
+8 January, 2007 (Simo)
+	* Added print capability to both the encode and decode modes.
+
+4 January, 2007 (Simo)
+	* Re-edited code to relax restrictions on the encode/decode of the
+	  Internet category. Lots of folks seem to be adding the "w" and "wf"
+	  options when not selecting the Web Master/Mistress option. Not
+	  serious enough to not accommodate this particular "error". Added
+	  category/rating uncertainty to other categories.
+
+	  Reimplemented the "EncodeSimple" subroutine as a macro subroutine
+	  instead.
+
+6 December, 2006 (Simo)
+	* Major code re-write begin. De-kludge the encode mode functions to
+	  streamline by removing unnecessary functions, fully use the line
+	  edit to accumulate code additions for easier user editing. Improved
+	  parse routines for better recognition of unnecessary text lines.
+
+	  Removed dependency on gdbm for code decrypt. Use an FXDict
+	  "dictionary" as light wieght database for decoding.
+
+	  Added: code element character array for encoding, string indexing
+	  for single character modifier look-up. Removed case switches for
+	  making these selections.
+
+	  Moved code element data into separate file of preprocessor macros
+	  for easier modifications in case of Fur Code revisions.
+
+	  Improved encode widget updating for more consistant presentation.
+
+4 August, 2005 (Simo)
+	* Minor bug fix to correct parse error in Furry themes decode. Also moved
+	  the "uncertain" option to the option menus, and removed from the
+	  options command button group.
+
+11 July, 2005 (Simo)
+	* Minor bug fix: cleaned up slight parse error in reading config files.
+
+10 November, 2004 (Simo)
+	* Some minor bug fixes in config file readers.
+
+22 September, 2004 (Simo)
+	* Dekludged the gender decoder: removed duplicate code and streamlined the
+	  function.
+	* Dekludged the RL Occuaptions decoder: removed some duplicate code.
+
+19 September, 2004 (Simo)
+	* Fully functional: added file open capability, and print capability.
+	  Debugged the "Furry Occupations" decoder. Debugged the "Furry Species"
+	  decoder for those cases where the user enters an exact species name
+	  that contains white space.
+
+	  Recoded the layout managers so that all widgets line up uniformly.
+
+	  Added the necessary files for the GNU build tool-chain.
+
+17 September, 2004 (Simo)
+	* Added "exact species" capability to the "DecodeSpecies" function.
+
+15 September, 2004 (Simo)
+	* Added the "DecodeGender" function. Changed the code keys and code
+	  meaning items for re-wroding, and a small bug fix (missing code
+	  items added).
+
+10 September, 2004 (Simo)
+	* Added the functions "DecodeSpecies" and "DecodeOccu" to decode the
+	  Furry species and RL Jobs categories.
+
+6 September, 2004 (Simo)
+	* Added the functions "DecodeSimple" and "DecodeComplex", for decoding
+	  the simple code categories, and for handling those that include
+	  the special modifications.
+
+5 September, 2004 (Simo)
+	* Created the Fur Code Keys and the Code Meaning items. Added gdbm database
+	  capability to the main program to create this database when running for
+	  first time and/or database files corrupted.
+
+30 August, 2004 (Simo)
+
+	* Fur code encode functionality complete. Added options to
+	  save project to disk, create new project, cancel current
+	  project.
+
+29 August, 2004 (Simo)
+
+	* Project Start: Create a C++/FOX version of the Fur Coder. Initial
+	  write of the UI.
+
+----------------------------------- Changelog  -----------------------------------

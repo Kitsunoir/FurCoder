@@ -1,0 +1,80 @@
+.TH FurCoderCXX 1 "December, 2006" Linux "User Manual"
+.SH NAME:
+FurCoderCXX \- Graphical aid for the creation/decrypting of "Fur Codes"
+.SH SYNOPSIS:
+.B FurCoderCXX
+.I [-v, --version]
+.SH DESCRIPTION:
+The
+.B FurCoderCXX
+is a graphical application which allows the user to create and/or
+decypher the 
+.I Code of the Furries.
+This is accomplished mainly via menu selection to minimize the number of
+user-required entries, and thus possible errors. See the on-line help,
+available from either the main menu or the toolbar, for more details on
+using this app.
+.SH OPTIONS:
+.TP
+.I \--version (-v):
+Display program version, then exit
+.SH FILES
+.I FurCoderCXX-x.y.z/Documents:
+.RS
+Support files for the on-line help
+.RE
+.I FurCoderCXX-x.y.z/etc:
+.RS
+Application config files
+.RE
+.I ~/.foxrc/Simo/
+.RS
+FOX-generated "registry" files for user-specific application settings.
+.RE
+.SH DIAGNOSTICS:
+The
+.B FurCoderCXX
+includes various message dialogs in case a non-fatal error is discovered. 
+This allows the user to correct the error and continue running the app.
+Also includes an instrumentation feature to send more diagnostic messages to
+standard output to assist in debugging the decode mode. Useful if you get
+errors/crashes due to peculiar user input.
+.P
+There is the possibility of a fatal error that will abort this app. Since
+this isn't suppose to happen, these errors don't have a message dialog
+associated with them. The nature of the error is written to the standard
+error, where it can be viewed if you start the app from a terminal command
+line. If you have an apparant crash, restart the app from the terminal to
+view these error advisories.
+
+.SH AUTHOR:
+The
+.B FurCoderCXX
+was written by Simo on a 
+.B Slackware 10.1
+i686 System with the
+.B FOX-1.2.3
+GUI Toolkit and
+.B XEMACS.
+.SH REPORT BUGS:
+Send bug reports to: simo@furrydolphin.net
+.SH COPYRIGHT:
+.B FurCoderCXX
+is Copyright (C) 2006 by Simo. This program is free software;
+you may redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation;
+either version 2 of the license, or (at your option) any later
+version. See the on-line help to view a copy of the GPL.
+
+This program is distributed in the hope that it will prove useful,
+but WITHOUT ANY WARRANTY; without even an implied warranty as to
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for further details.
+
+You may receive a copy of the GNU General Public License from:
+Free Software Foundation, Inc., 59 Temple Place, Suite 330,
+Boston, MA 02111-1307 USA.
+
+The GPL may also be viewed from the on-line help.
+
+Fur Code Copyright (C) 1998 by Ross Smith

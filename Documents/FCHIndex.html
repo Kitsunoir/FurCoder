@@ -1,0 +1,129 @@
+<!--
+
+-------------------------------- FCHIndex.html  --------------------------------
+
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>FurCoderCXX On-line Help</title>
+<link rel="stylesheet" type="text/css" href="master-styles.css">
+</head>
+
+<body>
+<a name="BEGIN"></a>
+<h1>Introduction</h1>
+
+<table align="center">
+<caption><b>Contents</b></caption>
+<tr>
+     <td><i><a href="http://home.kcore.de/~kiza/furry/furrycode.shtml">The Code of the Furries</a></i></td>
+</tr>
+<tr>
+     <td><a href="FCHIndex.html#MAINWIN">Main Window</a></td>
+</tr>
+<tr>
+     <td><a href="FCHIndex.html#MAINMENU">Main Menu</a></td>
+</tr>
+<tr>
+     <td><a href="FCHIndex.html#TOOLBAR">Toolbar</a></td>
+</tr>
+<tr>
+     <td><a href="FCDecode.html#BEGIN">Decode Mode</a></td>
+</tr>
+<tr>
+     <td><a href="FCEncode.html#BEGIN">Encode Mode</a></td>
+</tr>
+<tr>
+     <td><a href="FCOnLineHelp.html#BEGIN">About the On-Line Help</a></td>
+</tr>
+<tr>
+     <td><a href="FCOnLineHelp.html#DIAG">Diagnostics</a></td>
+</tr>
+<tr>
+     <td><a href="Gpl.html#BEGIN">The "GPL"</a></td>
+</tr>
+</table>
+<p>The FurCoderCXX is a graphical application for the creation/decyphering of <i>The Code of the Furries</i>, by Ross Smith: originated 23 June, 1996. The Fur Code is up to version: 1.3 (7 Feburary, 1998) The "Fur Code" is based upon the <a href="http://www.geekcode.com">"Geek Code"</a> (Robert Hayden: 1993) that goes back to the Usenet days. It is a method of conveying details concerning some personal matters and describing the level of one's participation within Furry fandom with as concisely as possible. While such considerations as limiting the amount of text involved in on-line communications is not so important these days, these codes have remained quite popular as a "sig" item for on-line forums and web pages. There are a variety of these codes out there, serving a number of different on-line communities. As with the "Geek Code", the "Fur Code" has the advantages of conciseness, being incomprehensible to the "mundanes" (i.e. outsiders) and it's a really <i>kewel</i> addition to any on-line forum sig.</p>
+
+<p>FurCoderCXX allows the user to easily decipher a Fur Code entered as a text file, via copy 'n' paste, or manually. The results are displayed in the main window, and may be saved to disk. Encode mode allows you to create a Fur Code easily by menu selection with a minimum of manual entries required. Again, all intermediate and final results are displayed, and the user has the options to save to disk, or copy from the display. Codes saved to disk may also be loaded for copy 'n' paste operations.</p>
+
+<p>FurCoderCXX was written with the <a href="http://www.fox-toolkit.org">FOX</a> GUI toolkit, and <a href="http://www.xemacs.org">XEMACS</a> on a <a href="http://www.slackware.org">Slackware 10.1</a> i686 System.</p>
+<h2><a name="MAINWIN">Main Window: Overview</a></h2>
+<p>&nbsp;</p>
+<div><img src="Images/FurCoderInitial.png" width="920" height="481" align="middle"></div>
+<p>&nbsp;</p>
+
+<dl>
+<h3><a name="MAINMENU">Main Menubar:</a></h3>
+
+<dt><h4>File:</h4></dt>
+	<dd><b>I)</b><b>New Project:</b> Reset the app to its initial state to start a new project. Will prompt if the current project hasn't been saved.</dd>
+	<dd><b>II)</b><b>Open:</b> Open a file; read into code display window</dd>
+	<dd><b>III)</b><b>Save as:</b> Save the current project to disk</dd>
+	<dd><b>V)</b><b>Exit:</b> Shut down the app; will prompt if current project hasn't been saved</dd>
+	<dd>Note: The main menubar is dock-able/free-floating.</dd>
+<dt><h4 align="left">Edit:</h4</dt>
+	<dd><b>I)</b><b>Cut:</b> Cut selected text to the system clipboard</dd>
+	<dd><b>II)</b><b>Copy:</b> Copy selected text to the system clipboard</dd>
+	<dd><b>III)</b><b>Paste:</b> Paste text from the clipboard into a text widget</dd>
+	<dd><b>IV)</b><b>Delete:</b> Remove the selected text</dd>
+<dt><h4 align="left">Help:</h4><dt>
+	<dd><b>I)</b><b>Contents:</b> Display the on-line help</dd>
+	<dd><b>II)</b><b>About:</b> Show the "About" box</dd>
+	<dd><b>III)</b><b>Dolphins:</b> Show a special message</dd>
+</dl>
+<dl>
+<dt><h3 align="left"><a name="TOOLBAR">Toolbar:</a></h3></dt>
+	<dd><b>I)</b> New Project</dd>
+	<dd><b>II)</b> File Open</dd>
+	<dd><b>III)</b> Save as</dd>
+	<dd><b>IV)</b> Cut</dd>
+	<dd><b>V)</b> Copy</dd>
+	<dd><b>VI)</b> Paste</dd>
+	<dd><b>VII)</b> Delete</dd>
+	<dd><b>VIII)</b> Toggle Main Mode</dd>
+	<dd><b>IX)</b> On-line Help</dd>
+	<dd><b>X)</b> "About" box</dd>
+</dl>
+
+<p>Both the main menu and tool bar are fully relocatable and free floating.</p>
+<dl>
+<dt><h3>Main Window Panes:</h3></dt>
+	<dd><b>I)</b> Option menus used for code creation</dd>
+	<dd><b>II)</b> Optional code modifier command button group (encode)/Code display area (decode)</dd>
+	<dd>Note: The vertical divider between the panes is draggable in order to allow resizing of these panes. This can help improve readability of either pane.</dd>
+</dl>
+
+<dl>
+<dt><h3 align="left">Command Button Group:</h3</dt>
+	<dd><b>I)</b><b>Next:</b> In encode mode: moves from the current menu group to the next (six total); finalizes the current selections.</dd>
+	<dd><b>II)</b><b>OK:</b> Accept the current menu selections (encode). Start decoding a Fur Code (decode mode)</dd>
+	<dd><b>III)</b><b>Cancel:</b> Reject current selection; select again.</dd>
+	<dd><b>IV)</b><b>Exit:</b> Shut down the app, prompt if there's an unsaved project</dd>
+</dl>
+<dl>
+<dt><h3 align="left">Statusbar:</h3></dt>
+	<dd><b>I)</b>Verbose tooltip display area</dd>
+	<dd><b>II)</b>Show mode/menu selection status</dd>
+	<dd><b>III)</b>Command button: show a special message</dd>
+</dl>
+<hr align="center" size="2" width="50%">
+<p>
+FurCoderCXX written by Simo<br>
+&copy; 2004 by Simo<br>
+On-line help written with XEMACS<br>
+on a Slackware 10.1 i686 System<br>
+<a href="mailto:simo@furrydolphin.net"></a>
+</p>
+<p>
+Fur Code &copy; 1998 by Ross Smith
+</p>
+<table align="center">
+<tr>
+     <td><a href="FCHIndex.html#BEGIN"><img src="Images/BeginBtn.png" align="center" height="32" width="68"</a></td>
+</tr>
+</table>
+</body>
+</html>
